@@ -1,0 +1,16 @@
+spring:
+  profiles: test
+
+security:
+  basic:
+    enabled: false
+  user:
+    password: jazz
+
+server:
+  address: localhost
+  port: 8080
+
+logging:
+  level:
+    org.springframework.web: debug
